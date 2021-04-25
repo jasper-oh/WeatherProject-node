@@ -3,6 +3,7 @@ const https = require("https");
 
 const app = express();
 
+// app method for using express method http protocol to interface with Application Programming Interface
 app.get("/", function (req, res) {
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=seoul&units=metric&appid=b3cb5d7584bd68d247a77ece4ca7d623";
