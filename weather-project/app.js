@@ -20,6 +20,7 @@ app.get("/", function (req, res) {
         "<h1>The temperature in Seoul is " + temp + " degrees Celcius</h1>"
       );
       res.write("<img src=" + imageURL + ">");
+      // Only one Send
       res.send();
     });
   });
